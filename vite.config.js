@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import path from 'path'
 
 export default defineConfig({
-  base: '/RupeeRoot/',   // 👈 THIS LINE fixes your blank page
+  base: '/RupeeRoot/',   // ✅ important for GitHub Pages
   plugins: [react()],
   resolve: {
     alias: {
